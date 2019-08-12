@@ -5,40 +5,38 @@ import ProjectCard from './ProjectCard'
 export default class ProjectGrid extends Component {
     render() {
         return (
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
-                    <div className="col-sm-4">
-                        <ProjectCard/>
-                    </div>
+            <section className="row">
+                <div className="col-sm-4">
+                    <ProjectCard/>
                 </div>
-            </div>
+                <div className="col-sm-4">
+                    <ProjectCard/>
+                </div>
+                <div className="col-sm-4">
+                    <ProjectCard/>
+                </div>
+                <div className="col-sm-4">
+                    <ProjectCard/>
+                </div>
+                <div className="col-sm-4">
+                    <ProjectCard/>
+                </div>
+                <div className="col-sm-4">
+                    <ProjectCard/>
+                </div>
+                <div className="col-sm-4">
+                    <ProjectCard/>
+                </div>
+                <div className="col-sm-4">
+                    <ProjectCard/>
+                </div>
+                <div className="col-sm-4">
+                    <ProjectCard/>
+                </div>
+                <div className="col-sm-4">
+                    <ProjectCard/>
+                </div>
+            </section>
         );
     }
 }

@@ -4,9 +4,9 @@ import ProjectGrid from './ProjectGrid'
 export default class MainContent extends Component {
     render() {
         return (
-            <div>
+            <main className="container">
                 <ProjectGrid/>
-            </div>
+            </main>
         );
     }
 }
